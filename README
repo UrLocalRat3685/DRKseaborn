@@ -9,9 +9,9 @@ I used two datasets for this project!
 
 The first was **Exercise_Data.csv**, which includes:
 
-* Pulse at 1, 15, and 30 minutes
-* Diet type
-* Exercise type
+- Pulse at 1, 15, and 30 minutes  
+- Diet type  
+- Exercise type  
 
 This dataset helped show how pulse changes over time based on lifestyle factors.
 
@@ -19,16 +19,16 @@ The second dataset was the built-in **planets dataset** from Seaborn.
 
 ## Visualizations Implemented
 
-### Exercise Dataset:
+### Exercise Dataset
 
-* Heatmap (correlation between pulse measurements)
-* Boxplot (pulse by diet and exercise type)
+- Heatmap (correlation between pulse measurements)  
+- Boxplot (pulse by diet and exercise type)  
 
-### Planets Dataset:
+### Planets Dataset
 
-* **Relational:** scatterplot, line plot
-* **Distributional:** histogram, KDE plot
-* **Categorical:** boxplot, countplot
+- **Relational:** scatterplot, line plot  
+- **Distributional:** histogram, KDE plot  
+- **Categorical:** boxplot, countplot  
 
 ## Implementing!
 
@@ -41,11 +41,11 @@ sns.load_dataset()
 
 Steps:
 
-1. Load data
-2. Select variables
-3. Create visualizations
-4. Add titles/labels
-5. Interpret results
+1. Load data  
+2. Select variables  
+3. Create visualizations  
+4. Add titles and labels  
+5. Interpret results  
 
 ## Analysis
 
@@ -55,24 +55,24 @@ The planets dataset revealed trends like relationships between distance and orbi
 
 ## Methods Used
 
-* pd.read_csv()
-* sns.load_dataset()
-* sns.heatmap()
-* sns.boxplot()
-* sns.scatterplot()
-* sns.lineplot()
-* sns.histplot()
-* sns.kdeplot()
-* sns.countplot()
+- pd.read_csv()  
+- sns.load_dataset()  
+- sns.heatmap()  
+- sns.boxplot()  
+- sns.scatterplot()  
+- sns.lineplot()  
+- sns.histplot()  
+- sns.kdeplot()  
+- sns.countplot()  
 
 ## Limitations
 
-* Small dataset size
-* Missing values in planets dataset
-* No advanced preprocessing
+- Small dataset size  
+- Missing values in planets dataset  
+- No advanced preprocessing  
 
 ## Conclusion
 
-This project shows how visualization helps make data easier to understand. Different plots highlight different patterns, making it easier to analyze both real-world and scientific data.
+This project shows how visualization helps make data easier to understand. Different plots highlight patterns and make insights clearer.
 
-V1 because we actually did it right this time( at least i think i did lol) :)
+V1 because we actually did it right this time :)
